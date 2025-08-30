@@ -43,7 +43,7 @@ const Contact = () => {
           <input
             type="text"
             name="name"
-            className="w-full text-black p-2 bg-transparent border-gray-600 border rounded border"
+            className="w-full text-black p-2 bg-transparent border-gray-600 border rounded "
             value={formData.name}
             onChange={handleChange}
           />
@@ -55,7 +55,7 @@ const Contact = () => {
           <input
             type="email"
             name="email"
-            className="w-full p-2  bg-transparent border-gray-600 border text-black rounded border"
+            className="w-full p-2  bg-transparent border-gray-600 border text-black rounded "
             value={formData.email}
             onChange={handleChange}
           />
@@ -67,7 +67,7 @@ const Contact = () => {
           <input
             type="text"
             name="subject"
-            className="w-full p-2  bg-transparent border-gray-600 border text-black rounded border"
+            className="w-full p-2  bg-transparent border-gray-600 border text-black rounded "
             value={formData.subject}
             onChange={handleChange}
           />
@@ -78,7 +78,7 @@ const Contact = () => {
           <label className="block text-black font-semibold mb-1">Message</label>
           <textarea
             name="message"
-            className="w-full p-2  bg-transparent border-gray-600 border text-black rounded border min-h-[120px]"
+            className="w-full p-2  bg-transparent border-gray-600 border text-black rounded min-h-[120px]"
             value={formData.message}
             onChange={handleChange}
           />
