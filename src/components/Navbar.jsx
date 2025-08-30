@@ -37,7 +37,7 @@ const Navbar = () => {
 
       {/* Mobile Menu */}
       {menuOpen && (
-        <div className="md:hidden bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 text-black px-6 pt-4 pb-6">
+        <div className="md:hidden bg-gray-300 text-black px-6 pt-4 pb-6">
           <ul className="flex flex-col items-center space-y-4 text-lg">
             <li><Link to="/" onClick={closeMenu} className="hover:text-gray-400">Home</Link></li>
             <li><Link to="/about" onClick={closeMenu} className="hover:text-gray-400">About</Link></li>
