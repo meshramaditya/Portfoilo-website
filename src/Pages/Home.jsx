@@ -14,7 +14,7 @@ const Home = () => {
       </p>
 
       <a
-        href="/RESUME.pdf"
+        href="/ADITYA__MESHRAM_RESUME.pdf"
         target="_blank"
         rel="noopener noreferrer"
         className="mt-6 inline-block bg-black hover:scale-105 transition-transform duration-300 text-white font-medium py-2 px-6 rounded-lg"
