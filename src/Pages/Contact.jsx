@@ -31,7 +31,7 @@ const Contact = () => {
   };
 
   return (
-    <section className="min-h-screen p-8 sm:p-16  bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500">
+    <section className="min-h-screen p-8 sm:p-16   bg-gray-300">
       <h2 className="text-3xl sm:text-4xl text-black font-bold text-center mb-10">Contact Me</h2>
 
       <form

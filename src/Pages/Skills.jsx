@@ -1,6 +1,6 @@
 const Skills = () => {
   return (
-    <section className="min-h-screen flex flex-col items-center justify-center bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 p-10">
+    <section className="min-h-screen flex flex-col items-center justify-center bg-gray-300 p-10">
       <h2 className="text-3xl sm:text-4xl text-black font-bold mb-6 text-center">
         My Skills
       </h2>

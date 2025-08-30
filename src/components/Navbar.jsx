@@ -14,7 +14,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 text-black px-6 py-4 shadow-md fixed top-0 left-0 w-full z-50">
+    <nav className="bg-gray-300 text-black px-6 py-4 shadow-md fixed top-0 left-0 w-full z-50">
       <div className="max-w-6xl mx-auto flex justify-between items-center">
         <h1 className="text-2xl text-black font-bold">Aditya</h1>
 

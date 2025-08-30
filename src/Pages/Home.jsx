@@ -1,11 +1,11 @@
 
 const Home = () => {
   return (
-    <section className="min-h-screen flex flex-col items-start justify-center text-start bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 text-white px-14 overfolw-hidden">
+    <section className="min-h-screen flex flex-col items-start justify-center text-start bg-gray-300 text-white px-14 overflow-hidden">
       <img
-        src="/profileImage.jpg"
+        src="/favicon.png"
         alt="Aditya Meshram"
-        className="w-20 h-20 rounded-full border-2 border-black mb-6"
+        className="w-32 h-32 rounded-full border border-black mb-6"
       />
 
       <h1 className="text-4xl text-black sm:text-4xl font-bold mb-3">Hey, I'm Aditya Meshram</h1>
